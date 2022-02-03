@@ -33,7 +33,6 @@
             </ul>
         </div>
 
-
         <!--Панель админа-->
         <div class="col-10">
             <h1>Admin panel</h1>
@@ -169,7 +168,9 @@
                                                             <label for="role" class="center-block">
                                                                 <span class="font-weight-bold">Role</span>
                                                             </label>
-                                                            <select multiple class="form-control collection-ville text-center" id="role"
+                                                            <select multiple
+                                                                    class="form-control collection-ville text-center"
+                                                                    id="role"
                                                                     name="roles">
                                                                 <option th:each="role : ${userRoles}"
                                                                         th:selected="*{roles}"
@@ -341,8 +342,6 @@
             </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

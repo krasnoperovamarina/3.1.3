@@ -1,4 +1,4 @@
-package com.example.spring_boot.security;
+package com.example.spring_boot.congig.security;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.AuthorityUtils;
